@@ -1,0 +1,25 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "learning express",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon server.js",
+    "debug": "ndb server.js",
+    "start:prod": "NODE_ENV=production  node server.js"
+  },
+  "author": "rishav",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dot-env": "0.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.10",
+    "ndb": "^1.1.5",
+    "nodemailer": "^6.4.6",
+    "nodemon": "^2.0.2",
+    "validator": "^13.0.0"
+  }
+}
